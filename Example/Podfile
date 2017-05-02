@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SWRevealViewController_Tests' do
+  pod 'SWRevealViewController', :path => '../'
+  
+  
+end

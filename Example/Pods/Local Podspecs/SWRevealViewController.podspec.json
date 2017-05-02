@@ -1,0 +1,22 @@
+{
+  "name": "SWRevealViewController",
+  "version": "0.1.0",
+  "summary": "A short description of SWRevealViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jeff2013/SWRevealViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jeff2013": "jeffreychang2010@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jeff2013/SWRevealViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWRevealViewController/Classes/**/*"
+}

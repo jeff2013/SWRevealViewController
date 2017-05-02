@@ -1,0 +1,16 @@
+PODS:
+  - SWRevealViewController (0.1.0)
+
+DEPENDENCIES:
+  - SWRevealViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SWRevealViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SWRevealViewController: 1b9c93148c3a85d80bbdeec69a92935bc3e9fc34
+
+PODFILE CHECKSUM: 60a389a75ae0dcbe1578ac55b4e4c1d5cfd3cb26
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF3FCA50DE250EF97C3AFBB298D1D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		696F4778C344BBA2E4F503380899BBE1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795CDF9C74F9E5EC01245C0265507B /* ReplaceMe.swift */; };
+		777817B2C88F1ED7A5B0FB50D9A0D53D /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC5C7DC9F8BD7B51E79E925760AC224 /* SWRevealViewController-dummy.m */; };
+		7F22DBF6CADA17D4C9E89977483DAA1F /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B34DD0DADBEE6E5CD7148D6513761560 /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8820AC7DAEBED0E660C36E9AAC80AAD7 /* Pods-SWRevealViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18431EBB0FBB1EE23CEFA66AA52F6B1B /* Pods-SWRevealViewController_Tests-dummy.m */; };
+		8C2F63DB422E76E08786E56B7032A54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5825CCD30679611952D8FE87F38F0A0 /* Pods-SWRevealViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D34F3E9DA792387EF577DEEF0CE40DAD /* Pods-SWRevealViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA2D84D0034AE9A633DBF6278EE4F3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4795D8BD74A86FB113C002C5669BA2C;
+			remoteInfo = SWRevealViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18431EBB0FBB1EE23CEFA66AA52F6B1B /* Pods-SWRevealViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWRevealViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		2E5727B93FDB0E385397DC8B6E689842 /* Pods-SWRevealViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWRevealViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DC5C7DC9F8BD7B51E79E925760AC224 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AE3410603F851D14926EC5DC19C3F46 /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController.framework; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2C29375BAB58E8D6DFA2372940CEB4 /* Pods-SWRevealViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWRevealViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		90B9E0BE7065493A3A84AFE09286E9FE /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1012013A87AEFF7B8EDDA7B7D5D72C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08F6C46AE928929D2A2B827BB071794 /* Pods_SWRevealViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWRevealViewController_Tests.framework; path = "Pods-SWRevealViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34DD0DADBEE6E5CD7148D6513761560 /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
+		BD1A23281826DB0F26658BD85AFF66CB /* Pods-SWRevealViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWRevealViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		CA2EBF9AC492EC8728180B3A8CD56FA4 /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
+		CF6AC2097DB1FA2833453856CF269CB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34F3E9DA792387EF577DEEF0CE40DAD /* Pods-SWRevealViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWRevealViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE913396D63826B5F0D34D5915F3C121 /* Pods-SWRevealViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWRevealViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF59A375701E7A9686AB38DF1A8CD56D /* Pods-SWRevealViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWRevealViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E6063A3904C79BCCD25C56B3397C4713 /* Pods-SWRevealViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWRevealViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC795CDF9C74F9E5EC01245C0265507B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		F2A385627E4F10D5B2554382DF959C09 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
+		FBAA4865670156162075417FCBF3DBDF /* Pods-SWRevealViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWRevealViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30302F9E6431C24B8A0B9D180C15944E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF3FCA50DE250EF97C3AFBB298D1D9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5818EF62F1F647D31D2810CBB20DA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F63DB422E76E08786E56B7032A54E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C76A1018F12951A9ED660BDBAB1DBEB /* Pods-SWRevealViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1012013A87AEFF7B8EDDA7B7D5D72C5 /* Info.plist */,
+				BD1A23281826DB0F26658BD85AFF66CB /* Pods-SWRevealViewController_Tests.modulemap */,
+				2E5727B93FDB0E385397DC8B6E689842 /* Pods-SWRevealViewController_Tests-acknowledgements.markdown */,
+				6F2C29375BAB58E8D6DFA2372940CEB4 /* Pods-SWRevealViewController_Tests-acknowledgements.plist */,
+				18431EBB0FBB1EE23CEFA66AA52F6B1B /* Pods-SWRevealViewController_Tests-dummy.m */,
+				DF59A375701E7A9686AB38DF1A8CD56D /* Pods-SWRevealViewController_Tests-frameworks.sh */,
+				FBAA4865670156162075417FCBF3DBDF /* Pods-SWRevealViewController_Tests-resources.sh */,
+				D34F3E9DA792387EF577DEEF0CE40DAD /* Pods-SWRevealViewController_Tests-umbrella.h */,
+				E6063A3904C79BCCD25C56B3397C4713 /* Pods-SWRevealViewController_Tests.debug.xcconfig */,
+				DE913396D63826B5F0D34D5915F3C121 /* Pods-SWRevealViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-SWRevealViewController_Tests";
+			path = "Target Support Files/Pods-SWRevealViewController_Tests";
+			sourceTree = "<group>";
+		};
+		5DAAB031752A2FB8D91D04E6F8A53F57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C76A1018F12951A9ED660BDBAB1DBEB /* Pods-SWRevealViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D67D675F79D43D25426D15F338A5982 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97FE13C8E47A9FF3B2538FB52F82C7AA /* SWRevealViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6D67D675F79D43D25426D15F338A5982 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A84A733F74A7544CBE240E8D87CF5392 /* Products */,
+				5DAAB031752A2FB8D91D04E6F8A53F57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97FE13C8E47A9FF3B2538FB52F82C7AA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EAFADBAB3AE97658816118F24101DFBB /* Support Files */,
+				F83DE56E47983A4F78EF1045C7BE0048 /* SWRevealViewController */,
+			);
+			name = SWRevealViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A84A733F74A7544CBE240E8D87CF5392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B08F6C46AE928929D2A2B827BB071794 /* Pods_SWRevealViewController_Tests.framework */,
+				6AE3410603F851D14926EC5DC19C3F46 /* SWRevealViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAFADBAB3AE97658816118F24101DFBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6AC2097DB1FA2833453856CF269CB5 /* Info.plist */,
+				F2A385627E4F10D5B2554382DF959C09 /* SWRevealViewController.modulemap */,
+				90B9E0BE7065493A3A84AFE09286E9FE /* SWRevealViewController.xcconfig */,
+				3DC5C7DC9F8BD7B51E79E925760AC224 /* SWRevealViewController-dummy.m */,
+				CA2EBF9AC492EC8728180B3A8CD56FA4 /* SWRevealViewController-prefix.pch */,
+				B34DD0DADBEE6E5CD7148D6513761560 /* SWRevealViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+		F83DE56E47983A4F78EF1045C7BE0048 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F9666EED5B8B9162F07445622C5C5F10 /* Classes */,
+			);
+			name = SWRevealViewController;
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		F9666EED5B8B9162F07445622C5C5F10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC795CDF9C74F9E5EC01245C0265507B /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7505FDAE10113BDF7A884466F9287C3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F22DBF6CADA17D4C9E89977483DAA1F /* SWRevealViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F18596DAEBDDD4D7FB15D8BAA2259 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5825CCD30679611952D8FE87F38F0A0 /* Pods-SWRevealViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9DA3FE6D17891C9FBF1843FF9EDA465F /* Pods-SWRevealViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4A1EF0C2AF2E740BD0ECAD605AB389 /* Build configuration list for PBXNativeTarget "Pods-SWRevealViewController_Tests" */;
+			buildPhases = (
+				3C9A0991D288E6F7CC75ABCA3CCB54A8 /* Sources */,
+				B5818EF62F1F647D31D2810CBB20DA8F /* Frameworks */,
+				844F18596DAEBDDD4D7FB15D8BAA2259 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A63493C9349C425A794E0D030ECBD64 /* PBXTargetDependency */,
+			);
+			name = "Pods-SWRevealViewController_Tests";
+			productName = "Pods-SWRevealViewController_Tests";
+			productReference = B08F6C46AE928929D2A2B827BB071794 /* Pods_SWRevealViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4795D8BD74A86FB113C002C5669BA2C /* SWRevealViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680DC3E48F0B244E7494796CC1A1B03E /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
+			buildPhases = (
+				FCFF4FAEC44AD490BA04FCA5427DE037 /* Sources */,
+				30302F9E6431C24B8A0B9D180C15944E /* Frameworks */,
+				7505FDAE10113BDF7A884466F9287C3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = 6AE3410603F851D14926EC5DC19C3F46 /* SWRevealViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A84A733F74A7544CBE240E8D87CF5392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA3FE6D17891C9FBF1843FF9EDA465F /* Pods-SWRevealViewController_Tests */,
+				A4795D8BD74A86FB113C002C5669BA2C /* SWRevealViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9A0991D288E6F7CC75ABCA3CCB54A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8820AC7DAEBED0E660C36E9AAC80AAD7 /* Pods-SWRevealViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF4FAEC44AD490BA04FCA5427DE037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696F4778C344BBA2E4F503380899BBE1 /* ReplaceMe.swift in Sources */,
+				777817B2C88F1ED7A5B0FB50D9A0D53D /* SWRevealViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A63493C9349C425A794E0D030ECBD64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWRevealViewController;
+			target = A4795D8BD74A86FB113C002C5669BA2C /* SWRevealViewController */;
+			targetProxy = CA2D84D0034AE9A633DBF6278EE4F3FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DD7EB47E312FAF53B103DF929AB1CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE913396D63826B5F0D34D5915F3C121 /* Pods-SWRevealViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWRevealViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWRevealViewController_Tests/Pods-SWRevealViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWRevealViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0420846D655789327FB42B4710A387F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6063A3904C79BCCD25C56B3397C4713 /* Pods-SWRevealViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWRevealViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWRevealViewController_Tests/Pods-SWRevealViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWRevealViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F186C7998C0C6077E66D70DF6DA84278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B9E0BE7065493A3A84AFE09286E9FE /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F953601BE109D96BE5C025C2A64BD8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B9E0BE7065493A3A84AFE09286E9FE /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4A1EF0C2AF2E740BD0ECAD605AB389 /* Build configuration list for PBXNativeTarget "Pods-SWRevealViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0420846D655789327FB42B4710A387F /* Debug */,
+				0DD7EB47E312FAF53B103DF929AB1CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680DC3E48F0B244E7494796CC1A1B03E /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F953601BE109D96BE5C025C2A64BD8AE /* Debug */,
+				F186C7998C0C6077E66D70DF6DA84278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
